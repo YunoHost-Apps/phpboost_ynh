@@ -1,6 +1,8 @@
 # PHPBoost app for YunoHost
 PHPBoost
 
+NOT WORK IS IN DEV
+
 - [Yunohost project](https://yunohost.org)
 - [PHPBoost website](https://www.phpboost.com/)
 
