@@ -6,7 +6,7 @@
         "en": "PHPBoost package for YunoHost.",
         "fr": "PHPBoost pour YunoHost."
     },
-    "version": "5.2",
+    "version": "5.2.10",
     "url": "https://www.phpboost.com/",
     "license": "free",
     "maintainer": {
@@ -19,7 +19,7 @@
     "multi_instance": false,
     "services": [
         "nginx",
-        "php5-fpm",
+        "php7-fpm",
         "mysql"
     ],
     "arguments": {
