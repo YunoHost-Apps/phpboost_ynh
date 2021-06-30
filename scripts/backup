@@ -1,17 +1,19 @@
 #!/bin/bash
 
 # Exit on command errors and treat unset variables as an error
-set -eu
+#set -eu
 
 # See comments in install script
 app=$YNH_APP_INSTANCE_NAME
 
 # Source YunoHost helpers
+source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
 # Backup sources & data
 # Note: the last argument is where to save this path, see the restore script.
-ynh_backup "/var/www/${app}" "sources"
+#ynh_backup "/var/www/${app}" "sources"
+ynh_backup --src_path="$final_path"
 
 ### MySQL (remove if not used) ###
 # If a MySQL database is used:
@@ -22,12 +24,29 @@ ynh_backup "/var/www/${app}" "sources"
 # mysqldump -u "$dbuser" -p"$dbpass" --no-create-db "$dbname" > ./dump.sql
 ### MySQL end ###
 
+#=================================================
+# BACKUP THE NGINX CONFIGURATION
+#=================================================
 # Copy NGINX configuration
 domain=$(ynh_app_setting_get "$app" domain)
-ynh_backup "/etc/nginx/conf.d/${domain}.d/${app}.conf" "nginx.conf"
+
+#ynh_backup "/etc/nginx/conf.d/${domain}.d/${app}.conf" "nginx.conf"
+ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
+
+#=================================================
+# BACKUP THE PHP-FPM CONFIGURATION
+#=================================================
+
+ynh_backup --src_path="/etc/php/$phpversion/fpm/pool.d/$app.conf"
 
 ### PHP (remove if not used) ###
 # If a dedicated php-fpm process is used:
 # # Copy PHP-FPM pool configuration
 # ynh_backup "/etc/php5/fpm/pool.d/${app}.conf" "php-fpm.conf"
 ### PHP end ###
+
+#=================================================
+# END OF SCRIPT
+#=================================================
+
+ynh_print_info --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)."
