@@ -54,17 +54,21 @@ test ! -e "$final_path" || ynh_die "This path already contains a folder"
 path_url=$(ynh_normalize_url_path $path_url)
 
 # Check web path availability
-ynh_webpath_available $domain $path_url
+#ynh_webpath_available $domain $path_url
 # Register (book) web path
-ynh_webpath_register $app $domain $path_url
+ynh_webpath_register --app=$app --domain=$domain --path_url=$path_url
 
 #=================================================
 # STORE SETTINGS FROM MANIFEST
 #=================================================
 
-ynh_app_setting_set $app domain $domain
-ynh_app_setting_set $app path $path_url
-ynh_app_setting_set $app is_public $is_public
+#ynh_app_setting_set $app domain $domain
+ynh_app_setting_set --app=$app --key=domain --value=$domain
+
+#ynh_app_setting_set $app path $path_url
+ynh_app_setting_set --app=$app --key=path --value=$path_url
+
+#ynh_app_setting_set $app is_public $is_public
 
 #=================================================
 # FIND AND OPEN A PORT
@@ -76,18 +80,20 @@ ynh_app_setting_set $app is_public $is_public
 ###		- Remove the section "CLOSE A PORT" in the remove script
 
 # Find a free port
-port=$(ynh_find_port 80)
+#port=$(ynh_find_port 80)
 # Open this port
 #yunohost firewall allow --no-upnp TCP $port 2>&1
-ynh_app_setting_set $app port $port
+#ynh_app_setting_set $app port $port
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 
-ynh_app_setting_set $app final_path $final_path
+#ynh_app_setting_set $app final_path $final_path
+ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source "$final_path"
+#ynh_setup_source "$final_path"
+ynh_setup_source --dest_dir="$final_path"
 
 #=================================================
 # NGINX CONFIGURATION
@@ -101,7 +107,8 @@ ynh_add_nginx_config
 #=================================================
 
 # Create a system user
-ynh_system_user_create $app
+#nh_system_user_create $app
+ynh_system_user_create --username=$app
 
 #=================================================
 # MODIFY A CONFIG FILE
@@ -133,8 +140,8 @@ ynh_system_user_create $app
 ### that really need such authorization.
 
 # Set permissions to app files
-chown -R www-data:www-data $final_path
-
+#hown -R www-data:www-data $final_path
+chown -R $app: $final_path
 
 #=================================================
 # SETUP SSOWAT
@@ -143,8 +150,11 @@ chown -R www-data:www-data $final_path
 # If app is public, add url to SSOWat conf as skipped_uris
 if [ $is_public -eq 1 ]; then
   # unprotected_uris allows SSO credentials to be passed anyway.
-  ynh_app_setting_set "$app" unprotected_uris "/"
+  #nh_app_setting_set "$app" unprotected_uris "/"
+  ynh_permission_update --permission="main" --add="visitors"
 fi
 
 # Reload services
-systemctl reload nginx
+#ystemctl reload nginx
+ynh_systemd_action --service_name=nginx --action=reload
+ynh_script_progression --message="Installation of $app completed" --time --last
