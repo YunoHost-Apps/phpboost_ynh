@@ -6,8 +6,16 @@
         "en": "PHPBoost package for YunoHost.",
         "fr": "PHPBoost pour YunoHost."
     },
-    "version": "5.2",
+    "version": "6.0~ynh1",
     "url": "https://www.phpboost.com/",
+    "upstream": {
+        "license": "GPL",
+        "website": "https://www.phpboost.com/",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://some.forge.com/example/example"
+    },
     "license": "GPL",
     "maintainer": {
         "name": "liberodark",
@@ -36,7 +44,7 @@
             {
                 "name": "is_public",
                 "type": "boolean",
-                "default": "true"
+                "default": true
             }
         ]
     }
