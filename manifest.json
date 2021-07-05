@@ -6,7 +6,7 @@
         "en": "French and free content management system (CMS)",
         "fr": "système de gestion de contenu (CMS) français et libre"
     },
-    "version": "5.2~ynh1",
+    "version": "5.2.10~ynh1",
     "url": "https://www.phpboost.com/",
     "upstream": {
         "license": "GPL-3.0-only",
