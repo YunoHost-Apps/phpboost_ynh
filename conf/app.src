@@ -1,5 +1,5 @@
-SOURCE_URL=https://dl.phpboost.com/6.0/phpboost/phpboost_b1.zip
-SOURCE_SUM=5916545902c31a4bd3504a5b17474375c16d5b6f64de7cbe1185b1069fdc3589
+SOURCE_URL=https://dl.phpboost.com/5.2/phpboost/phpboost.zip
+SOURCE_SUM=5454f95509d44d3688473e5e196b52f30e06378a30d009bdbfb5e92660f74d55
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true

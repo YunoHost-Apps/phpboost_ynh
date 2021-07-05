@@ -6,17 +6,17 @@
         "en": "PHPBoost package for YunoHost.",
         "fr": "PHPBoost pour YunoHost."
     },
-    "version": "6.0~ynh1",
+    "version": "5.2~ynh1",
     "url": "https://www.phpboost.com/",
     "upstream": {
-        "license": "GPL",
+        "license": "GPL-3.0-only",
         "website": "https://www.phpboost.com/",
-        "demo": "https://demo.example.com",
-        "admindoc": "https://yunohost.org/packaging_apps",
+        "demo": "https://demo.phpboost.com/",
+        "admindoc": "https://www.phpboost.com/wiki/wiki.php",
         "userdoc": "https://yunohost.org/apps",
         "code": "https://some.forge.com/example/example"
     },
-    "license": "GPL",
+    "license": "GPL-3.0-only",
     "maintainer": {
         "name": "liberodark",
         "email": "liberodark@gmail.com"
