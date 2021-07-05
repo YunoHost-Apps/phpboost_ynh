@@ -17,15 +17,15 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 PHPBoost package for YunoHost.
 
-**Shipped version:** 6.0~ynh1
+**Shipped version:** 5.2~ynh1
 
-**Demo:** https://demo.example.com
+**Demo:** https://demo.phpboost.com/
 
 ## Documentation and resources
 
 * Official app website: https://www.phpboost.com/
 * Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
+* Official admin documentation: https://www.phpboost.com/wiki/wiki.php
 * Upstream app code repository: https://some.forge.com/example/example
 * YunoHost documentation for this app: https://yunohost.org/app_phpboost
 * Report a bug: https://github.com/YunoHost-Apps/phpboost_ynh/issues

@@ -13,15 +13,15 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 PHPBoost pour YunoHost.
 
-**Version incluse :** 6.0~ynh1
+**Version incluse :** 5.2~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://demo.phpboost.com/
 
 ## Documentations et ressources
 
 * Site officiel de l'app : https://www.phpboost.com/
 * Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
+* Documentation officielle de l'admin : https://www.phpboost.com/wiki/wiki.php
 * Dépôt de code officiel de l'app : https://some.forge.com/example/example
 * Documentation YunoHost pour cette app : https://yunohost.org/app_phpboost
 * Signaler un bug : https://github.com/YunoHost-Apps/phpboost_ynh/issues
