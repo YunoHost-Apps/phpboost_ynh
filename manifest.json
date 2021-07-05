@@ -3,8 +3,8 @@
     "id": "phpboost",
     "packaging_format": 1,
     "description": {
-        "en": "PHPBoost package for YunoHost.",
-        "fr": "PHPBoost pour YunoHost."
+        "en": "French and free content management system (CMS)",
+        "fr": "système de gestion de contenu (CMS) français et libre"
     },
     "version": "5.2~ynh1",
     "url": "https://www.phpboost.com/",
