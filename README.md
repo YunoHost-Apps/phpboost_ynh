@@ -17,13 +17,20 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 French and free content management system (CMS)
 
-**Shipped version:** 5.2~ynh1
+**Shipped version:** 5.2.10~ynh1
 
 **Demo:** https://demo.phpboost.com/
 
 ## Screenshots
 
 ![](./doc/screenshots/01.jpg)
+
+## Disclaimers / important information
+
+## Configuration
+
+1. The app will require to complete the registration process after the instllation is complete by **visiting the domain** on  which PHPBoost is installed.
+1. The MySQL database credentials will be sent to the **admin mail**. Fill these details while doing the registration process.
 
 ## Documentation and resources
 
