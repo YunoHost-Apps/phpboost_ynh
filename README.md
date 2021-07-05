@@ -15,11 +15,15 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-PHPBoost package for YunoHost.
+French and free content management system (CMS)
 
 **Shipped version:** 5.2~ynh1
 
 **Demo:** https://demo.phpboost.com/
+
+## Screenshots
+
+![](./doc/screenshots/01.jpg)
 
 ## Documentation and resources
 

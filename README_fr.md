@@ -11,11 +11,15 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-PHPBoost pour YunoHost.
+système de gestion de contenu (CMS) français et libre
 
 **Version incluse :** 5.2~ynh1
 
 **Démo :** https://demo.phpboost.com/
+
+## Captures d'écran
+
+![](./doc/screenshots/01.jpg)
 
 ## Documentations et ressources
 
