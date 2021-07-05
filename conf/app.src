@@ -1,7 +1,7 @@
-SOURCE_URL=https://dl.phpboost.com/5.2/phpboost/phpboost.zip
-SOURCE_SUM=5454f95509d44d3688473e5e196b52f30e06378a30d009bdbfb5e92660f74d55
+SOURCE_URL=https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-5.2.10.tar.gz
+SOURCE_SUM=c9b6ff50b436dae69308fa92927a145f2b1b2491638a1f2e078af514bbbcea6b
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
+SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_EXTRACT=true
-SOURCE_FILENAME=phpboost.zip
+SOURCE_FILENAME=phpboost.tar.gz
