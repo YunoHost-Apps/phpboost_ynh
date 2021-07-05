@@ -14,7 +14,7 @@
         "demo": "https://demo.phpboost.com/",
         "admindoc": "https://www.phpboost.com/wiki/wiki.php",
         "userdoc": "https://yunohost.org/apps",
-        "code": "https://some.forge.com/example/example"
+        "code": "https://github.com/PHPBoost/PHPBoost"
     },
     "license": "GPL-3.0-only",
     "maintainer": {
@@ -24,7 +24,7 @@
     "requirements": {
         "yunohost": ">= 4.2.4"
     },
-    "multi_instance": false,
+    "multi_instance": true,
     "services": [
         "nginx",
         "php7.3-fpm"
