@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 French and free content management system (CMS)
 
-**Shipped version:** 5.2.10~ynh1
+**Shipped version:** 5.2.10~ynh2
 
 **Demo:** https://demo.phpboost.com/
 

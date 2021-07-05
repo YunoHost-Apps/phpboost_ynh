@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 système de gestion de contenu (CMS) français et libre
 
-**Version incluse :** 5.2.10~ynh1
+**Version incluse :** 5.2.10~ynh2
 
 **Démo :** https://demo.phpboost.com/
 
