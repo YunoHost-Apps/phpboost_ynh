@@ -22,7 +22,7 @@ PHPBoost pour YunoHost.
 * Site officiel de l'app : https://www.phpboost.com/
 * Documentation officielle utilisateur : https://yunohost.org/apps
 * Documentation officielle de l'admin : https://www.phpboost.com/wiki/wiki.php
-* Dépôt de code officiel de l'app : https://some.forge.com/example/example
+* Dépôt de code officiel de l'app : https://github.com/PHPBoost/PHPBoost
 * Documentation YunoHost pour cette app : https://yunohost.org/app_phpboost
 * Signaler un bug : https://github.com/YunoHost-Apps/phpboost_ynh/issues
 
