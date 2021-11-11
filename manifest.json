@@ -13,7 +13,6 @@
         "website": "https://www.phpboost.com/",
         "demo": "https://demo.phpboost.com/",
         "admindoc": "https://www.phpboost.com/wiki/wiki.php",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/PHPBoost/PHPBoost"
     },
     "license": "GPL-3.0-only",
