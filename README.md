@@ -35,7 +35,6 @@ French and free content management system (CMS)
 ## Documentation and resources
 
 * Official app website: https://www.phpboost.com/
-* Official user documentation: https://yunohost.org/apps
 * Official admin documentation: https://www.phpboost.com/wiki/wiki.php
 * Upstream app code repository: https://github.com/PHPBoost/PHPBoost
 * YunoHost documentation for this app: https://yunohost.org/app_phpboost
