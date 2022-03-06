@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-5.2.10.tar.gz
-SOURCE_SUM=c9b6ff50b436dae69308fa92927a145f2b1b2491638a1f2e078af514bbbcea6b
+SOURCE_URL=https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-5.2.11.tar.gz
+SOURCE_SUM=732e95714c3d14b60abfd0d1cd37d38df18a730dff9e347e02a4fa6b048ff40c
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
