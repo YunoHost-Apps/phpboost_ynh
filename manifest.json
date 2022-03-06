@@ -6,7 +6,7 @@
         "en": "French and free content management system (CMS)",
         "fr": "système de gestion de contenu (CMS) français et libre"
     },
-    "version": "5.2.10~ynh3",
+    "version": "5.2.11~ynh1",
     "url": "https://www.phpboost.com/",
     "upstream": {
         "license": "GPL-3.0-only",
@@ -21,7 +21,7 @@
         "email": "liberodark@gmail.com"
     },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": true,
     "services": [
