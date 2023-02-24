@@ -4,9 +4,11 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="7.3"
+YNH_PHP_VERSION="7.4"
 
-extra_php_dependencies="php${YNH_PHP_VERSION}-mysql php${YNH_PHP_VERSION}-gd"
+php_dependencies="php${YNH_PHP_VERSION}-mysql php${YNH_PHP_VERSION}-gd"
+
+pkg_dependencies="$php_dependencies"
 
 #=================================================
 # PERSONAL HELPERS
