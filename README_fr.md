@@ -26,13 +26,6 @@ système de gestion de contenu (CMS) français et libre
 
 ![Capture d’écran de PHPBoost](./doc/screenshots/01.jpg)
 
-## Avertissements / informations importantes
-
-## Configuration
-
-1. Une fois l'installation terminée, l'application devra terminer le processus d'enregistrement en **visitant le domaine** sur lequel PHPBoost est installé.
-1. Les informations d'identification de la base de données MySQL seront envoyées à **l'email admin**. Remplissez ces détails lors du processus d'inscription.
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://www.phpboost.com/>
