@@ -6,10 +6,6 @@
 
 YNH_PHP_VERSION="7.4"
 
-#REMOVEME? php_dependencies="php${YNH_PHP_VERSION}-mysql php${YNH_PHP_VERSION}-gd"
-
-#REMOVEME? pkg_dependencies="$php_dependencies"
-
 #=================================================
 # PERSONAL HELPERS
 #=================================================
