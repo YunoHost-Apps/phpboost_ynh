@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # PHPBoost for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/phpboost.svg)](https://dash.yunohost.org/appci/app/phpboost) ![](https://ci-apps.yunohost.org/ci/badges/phpboost.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/phpboost.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/phpboost.svg)](https://dash.yunohost.org/appci/app/phpboost) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpboost.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpboost.maintain.svg)
+
 [![Install PHPBoost with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpboost)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -23,7 +24,7 @@ French and free content management system (CMS)
 
 ## Screenshots
 
-![](./doc/screenshots/01.jpg)
+![Screenshot of PHPBoost](./doc/screenshots/01.jpg)
 
 ## Disclaimers / important information
 
@@ -34,21 +35,22 @@ French and free content management system (CMS)
 
 ## Documentation and resources
 
-* Official app website: https://www.phpboost.com/
-* Official admin documentation: https://www.phpboost.com/wiki/wiki.php
-* Upstream app code repository: https://github.com/PHPBoost/PHPBoost
-* YunoHost documentation for this app: https://yunohost.org/app_phpboost
-* Report a bug: https://github.com/YunoHost-Apps/phpboost_ynh/issues
+* Official app website: <https://www.phpboost.com/>
+* Official admin documentation: <https://www.phpboost.com/wiki/wiki.php>
+* Upstream app code repository: <https://github.com/PHPBoost/PHPBoost>
+* YunoHost documentation for this app: <https://yunohost.org/app_phpboost>
+* Report a bug: <https://github.com/YunoHost-Apps/phpboost_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/phpboost_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/phpboost_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade phpboost -u https://github.com/YunoHost-Apps/phpboost_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
