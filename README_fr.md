@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-système de gestion de contenu (CMS) français et libre
+French and free content management system (CMS)
 
 **Version incluse :** 5.2.11~ynh1
 
