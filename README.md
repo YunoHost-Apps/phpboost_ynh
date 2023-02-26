@@ -16,7 +16,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-French and free content management system (CMS)
+PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
 **Shipped version:** 5.2.11~ynh1
 
