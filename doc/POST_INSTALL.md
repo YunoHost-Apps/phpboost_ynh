@@ -1,4 +1,6 @@
-## Configuration
+Complete the registration process from the setup page displayed.
+Details for MySQL database to be enterted while registration process:
 
-1. The app will require to complete the registration process after the instllation is complete by **visiting the domain** on  which PHPBoost is installed.
-1. The MySQL database credentials will be sent to the **admin mail**. Fill these details while doing the registration process.
+Database login:    __DB_USER__
+Database name:     __DB_NAME__
+Database password: __DB_PWD__

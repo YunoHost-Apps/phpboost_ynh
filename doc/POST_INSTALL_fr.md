@@ -1,4 +1,6 @@
-## Configuration
+Terminez le processus d'enregistrement à partir de la page de configuration affichée.
+Détails de la base de données MySQL à saisir lors du processus d'inscription :
 
-1. Une fois l'installation terminée, l'application devra terminer le processus d'enregistrement en **visitant le domaine** sur lequel PHPBoost est installé.
-1. Les informations d'identification de la base de données MySQL seront envoyées à **l'email admin**. Remplissez ces détails lors du processus d'inscription.
+Connexion à la base de données : __DB_USER__
+Nom de la base de données : __DB_NAME__
+Mot de passe de la base de données : __DB_PWD__

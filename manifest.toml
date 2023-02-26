@@ -7,7 +7,7 @@ description.fr = "système de gestion de contenu (CMS) français et libre"
 
 version = "5.2.11~ynh1"
 
-maintainers = ["liberodark"]
+maintainers = [""]
 
 [upstream]
 license = "GPL-3.0-only"
@@ -49,7 +49,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php7.4-mysql php7.4-gd"
+    packages = "php8.0-mysql php8.0-gd"
 
     [resources.database]
     type = "mysql"
