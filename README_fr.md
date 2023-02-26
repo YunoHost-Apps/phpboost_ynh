@@ -16,22 +16,15 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-système de gestion de contenu (CMS) français et libre
+PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Version incluse :** 5.2.11~ynh1
+**Version incluse :** 5.2.11~ynh2
 
 **Démo :** https://demo.phpboost.com/
 
 ## Captures d’écran
 
-![Capture d’écran de PHPBoost](./doc/screenshots/01.jpg)
-
-## Avertissements / informations importantes
-
-## Configuration
-
-1. Une fois l'installation terminée, l'application devra terminer le processus d'enregistrement en **visitant le domaine** sur lequel PHPBoost est installé.
-1. Les informations d'identification de la base de données MySQL seront envoyées à **l'email admin**. Remplissez ces détails lors du processus d'inscription.
+![Capture d’écran de PHPBoost](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

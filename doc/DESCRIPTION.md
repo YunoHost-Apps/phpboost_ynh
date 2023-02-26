@@ -1,0 +1,1 @@
+PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.

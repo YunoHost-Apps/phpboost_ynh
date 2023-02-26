@@ -16,22 +16,15 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-French and free content management system (CMS)
+PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Shipped version:** 5.2.11~ynh1
+**Shipped version:** 5.2.11~ynh2
 
 **Demo:** https://demo.phpboost.com/
 
 ## Screenshots
 
-![Screenshot of PHPBoost](./doc/screenshots/01.jpg)
-
-## Disclaimers / important information
-
-## Configuration
-
-1. The app will require to complete the registration process after the instllation is complete by **visiting the domain** on  which PHPBoost is installed.
-1. The MySQL database credentials will be sent to the **admin mail**. Fill these details while doing the registration process.
+![Screenshot of PHPBoost](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
