@@ -24,7 +24,7 @@ PHPBoost allows everyone to create his own website without any particular knowle
 
 ## Captures d’écran
 
-![Capture d’écran de PHPBoost](./doc/screenshots/01.jpg)
+![Capture d’écran de PHPBoost](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
