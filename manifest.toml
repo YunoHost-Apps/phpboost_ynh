@@ -5,7 +5,7 @@ name = "PHPBoost"
 description.en = "French and free content management system (CMS)"
 description.fr = "système de gestion de contenu (CMS) français et libre"
 
-version = "5.2.11~ynh1"
+version = "5.2.11~ynh2"
 
 maintainers = [""]
 
