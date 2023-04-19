@@ -5,7 +5,7 @@ name = "PHPBoost"
 description.en = "French and free content management system (CMS)"
 description.fr = "système de gestion de contenu (CMS) français et libre"
 
-version = "5.2.11~ynh2"
+version = "5.2.14~ynh1"
 
 maintainers = [""]
 
@@ -17,7 +17,7 @@ admindoc = "https://www.phpboost.com/wiki/wiki.php"
 code = "https://github.com/PHPBoost/PHPBoost"
 
 [integration]
-yunohost = ">= 11.1.11"
+yunohost = ">= 11.1.17"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -39,6 +39,14 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-5.2.14.tar.gz"
+        sha256 = "d93acd8f631f0789d6985f06a0d3bb7a5e2063bebffc1282cd55f8ff2abe0581"
+        autoupdate.strategy = "latest_github_tag"
+
     [resources.ports]
 
     [resources.system_user]

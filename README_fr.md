@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Version incluse :** 5.2.11~ynh2
+**Version incluse :** 5.2.14~ynh1
 
 **Démo :** https://demo.phpboost.com/
 
