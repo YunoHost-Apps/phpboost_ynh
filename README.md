@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Shipped version:** 5.2.11~ynh2
+**Shipped version:** 5.2.14~ynh1
 
 **Demo:** https://demo.phpboost.com/
 
