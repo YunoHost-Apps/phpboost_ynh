@@ -44,7 +44,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-6.0.0.tar.gz"
-        sha256 = "d2b307a48b42da28cefdda2000c29327a6e2d71bab81f601031ed6d96298fe51"
+        sha256 = "c54b15c4f560a57d2e5672a99fa3b22e019109f449dc4585b76f823723e9b890"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
