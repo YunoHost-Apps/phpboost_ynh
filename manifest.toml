@@ -5,7 +5,7 @@ name = "PHPBoost"
 description.en = "French and free content management system (CMS)"
 description.fr = "Système de gestion de contenu (CMS) français et libre"
 
-version = "6.0.0~ynh1"
+version = "6.0.1~ynh1"
 
 maintainers = [""]
 
@@ -43,8 +43,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-6.0.0.tar.gz"
-        sha256 = "c54b15c4f560a57d2e5672a99fa3b22e019109f449dc4585b76f823723e9b890"
+        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-6.0.1.tar.gz"
+        sha256 = "56825d5799c0b8254794e190147936c9878ff8338a3e543b527879b870437566"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
