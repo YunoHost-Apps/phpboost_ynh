@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Version incluse :** 6.0.1~ynh1
+**Version incluse :** 6.0.2~ynh1
 
 **Démo :** https://demo.phpboost.com/
 
@@ -31,7 +31,7 @@ PHPBoost allows everyone to create his own website without any particular knowle
 * Site officiel de l’app : <https://www.phpboost.com/>
 * Documentation officielle de l’admin : <https://www.phpboost.com/wiki/wiki.php>
 * Dépôt de code officiel de l’app : <https://github.com/PHPBoost/PHPBoost>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_phpboost>
+* YunoHost Store: <https://apps.yunohost.org/app/phpboost>
 * Signaler un bug : <https://github.com/YunoHost-Apps/phpboost_ynh/issues>
 
 ## Informations pour les développeurs
