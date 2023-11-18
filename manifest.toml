@@ -3,9 +3,9 @@ packaging_format = 2
 id = "phpboost"
 name = "PHPBoost"
 description.en = "French and free content management system (CMS)"
-description.fr = "système de gestion de contenu (CMS) français et libre"
+description.fr = "Système de gestion de contenu (CMS) français et libre"
 
-version = "5.2.14~ynh1"
+version = "6.0.2~ynh1"
 
 maintainers = [""]
 
@@ -17,11 +17,14 @@ admindoc = "https://www.phpboost.com/wiki/wiki.php"
 code = "https://github.com/PHPBoost/PHPBoost"
 
 [integration]
-yunohost = ">= 11.1.17"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "253M"
 ram.runtime = "50M"
@@ -43,8 +46,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-5.2.14.tar.gz"
-        sha256 = "d93acd8f631f0789d6985f06a0d3bb7a5e2063bebffc1282cd55f8ff2abe0581"
+        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-6.0.2.tar.gz"
+        sha256 = "83888d8cdbf5fdae54214e43eaf1badfcefabb8f117e0b394bdc5a073742379f"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
@@ -57,7 +60,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php7.4-mysql php7.4-gd"
+    packages = "mariadb-server, php8.2-mysql, php8.2-gd, php8.2-mbstring"
 
     [resources.database]
     type = "mysql"
