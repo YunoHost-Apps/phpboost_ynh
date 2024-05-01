@@ -7,7 +7,7 @@ description.fr = "Système de gestion de contenu (CMS) français et libre"
 
 version = "6.0.2~ynh1"
 
-maintainers = [""]
+maintainers = []
 
 [upstream]
 license = "GPL-3.0-only"
