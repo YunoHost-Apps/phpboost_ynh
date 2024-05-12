@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Versión proporcionada:** phpboost-6.0.3~ynh1
+**Versión proporcionada:** 6.0.3~ynh1
 
 **Demo:** <https://demo.phpboost.com/>
 
