@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 PHPBoost
+# YunoHost 上的 PHPBoost
 
 [![集成程度](https://dash.yunohost.org/integration/phpboost.svg)](https://dash.yunohost.org/appci/app/phpboost) ![工作状态](https://ci-apps.yunohost.org/ci/badges/phpboost.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/phpboost.maintain.svg)
 
@@ -18,7 +18,7 @@
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**分发版本：** 6.0.2~ynh1
+**分发版本：** 6.0.3~ynh1
 
 **演示：** <https://demo.phpboost.com/>
 
