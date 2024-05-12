@@ -5,9 +5,9 @@ name = "PHPBoost"
 description.en = "French and free content management system (CMS)"
 description.fr = "Système de gestion de contenu (CMS) français et libre"
 
-version = "phpboost-6.0.3~ynh1"
+version = "6.0.3~ynh1"
 
-maintainers = [""]
+maintainers = []
 
 [upstream]
 license = "GPL-3.0-only"
