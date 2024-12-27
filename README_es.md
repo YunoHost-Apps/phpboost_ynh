@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # PHPBoost para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/phpboost.svg)](https://dash.yunohost.org/appci/app/phpboost) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/phpboost.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/phpboost.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/phpboost)](https://ci-apps.yunohost.org/ci/apps/phpboost/)
+![Estado funcional](https://apps.yunohost.org/badge/state/phpboost)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/phpboost)
 
 [![Instalar PHPBoost con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpboost)
 
@@ -36,7 +38,7 @@ PHPBoost allows everyone to create his own website without any particular knowle
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/phpboost_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/phpboost_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

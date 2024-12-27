@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # PHPBoost pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/phpboost.svg)](https://dash.yunohost.org/appci/app/phpboost) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phpboost.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phpboost.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/phpboost)](https://ci-apps.yunohost.org/ci/apps/phpboost/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/phpboost)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/phpboost)
 
 [![Installer PHPBoost avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpboost)
 
