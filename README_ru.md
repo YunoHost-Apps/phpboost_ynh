@@ -20,7 +20,7 @@
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Поставляемая версия:** 6.0.3~ynh1
+**Поставляемая версия:** 6.0.4~ynh1
 
 **Демо-версия:** <https://demo.phpboost.com/>
 
