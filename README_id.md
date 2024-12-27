@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Versi terkirim:** 6.0.3~ynh1
+**Versi terkirim:** 6.0.4~ynh1
 
 **Demo:** <https://demo.phpboost.com/>
 

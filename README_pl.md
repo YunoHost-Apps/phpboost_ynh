@@ -20,7 +20,7 @@ Nie powinno być ono edytowane ręcznie.
 
 PHPBoost allows everyone to create his own website without any particular knowledge required in webmastering.
 
-**Dostarczona wersja:** 6.0.3~ynh1
+**Dostarczona wersja:** 6.0.4~ynh1
 
 **Demo:** <https://demo.phpboost.com/>
 
