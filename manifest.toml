@@ -3,8 +3,8 @@ packaging_format = 2
 
 id = "phpboost"
 name = "PHPBoost"
-description.en = "French and free content management system (CMS)"
-description.fr = "Système de gestion de contenu (CMS) français et libre"
+description.en = "Content management system (CMS)"
+description.fr = "Système de gestion de contenu (CMS)"
 
 version = "6.0.4~ynh1"
 
@@ -64,7 +64,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.2-mysql, php8.2-gd, php8.2-mbstring"
+    packages = "mariadb-server, php8.3-mysql, php8.3-gd, php8.3-mbstring"
 
     [resources.database]
     type = "mysql"
