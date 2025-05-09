@@ -1,3 +1,4 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
 packaging_format = 2
 
 id = "phpboost"
@@ -5,7 +6,7 @@ name = "PHPBoost"
 description.en = "French and free content management system (CMS)"
 description.fr = "Système de gestion de contenu (CMS) français et libre"
 
-version = "6.0.3~ynh1"
+version = "6.0.4~ynh1"
 
 maintainers = []
 
@@ -47,9 +48,10 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-6.0.3.tar.gz"
-        sha256 = "af04616c9cbbcbd804b80fe667f556dfca8bd1bd19f78dba314a4f66bbee6268"
+        url = "https://github.com/PHPBoost/PHPBoost/archive/refs/tags/phpboost-6.0.4.tar.gz"
+        sha256 = "b6907bf7e275d67f5c9fda99af26b2b056ba15a17c86019a0131fa1e8f52ad8d"
         autoupdate.strategy = "latest_github_release"
+        autoupdate.version_regex = "phpboost-(.*)"
 
     [resources.ports]
 
