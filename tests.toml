@@ -1,4 +1,11 @@
 #:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/tests.v1.schema.json
 test_format = 1.0
 
+
 [default]
+	
+	args.phpboost_pwd = "My_Super_PWD_for_PHPBoost"
+	
+	[default.curl_tests]
+	#install.expect_title = "Installation de PHPBoost - Préambule"
+	install.expect_return_code = 200

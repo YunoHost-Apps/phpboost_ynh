@@ -6,7 +6,7 @@ name = "PHPBoost"
 description.en = "Content management system (CMS)"
 description.fr = "Système de gestion de contenu (CMS)"
 
-version = "6.0.4~ynh2"
+version = "6.0.4~ynh3"
 
 maintainers = []
 
@@ -18,7 +18,7 @@ admindoc = "https://www.phpboost.com/wiki/wiki.php"
 code = "https://github.com/PHPBoost/PHPBoost"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -42,6 +42,29 @@ ram.runtime = "50M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+	
+	[install.phpboost_admin]
+	ask.en = "PHPBoost admin Login"
+    help.en = "The Admin user"
+	ask.fr = "L'admin de votre PHPBoost"
+    help.fr = "L'utilisateur Administrateur"
+	type = "user"
+	
+	[install.phpboost_pwd]
+	ask.en = "PHPBoost admin password"
+    help.en = "The Admin password"
+	ask.fr = "Mot de passe d'administration"
+    help.fr = "Le mot de passe de l'Administrateur"
+    type = "password"
+	
+	[install.phpboost_lang]
+    ask.en = "Chose PHPBoost lang"
+    help.en = "Can be change in Admin panel"
+	ask.fr = "Choisissez la langue de PHPBoost"
+    help.fr = "Peut être changé dans l'administration"
+    type = "select"
+    choices.english = "English"
+    choices.french = "Français"
 
 [resources]
 
@@ -64,7 +87,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.4-mysql, php8.4-gd, php8.4-mbstring"
+    packages = "mariadb-server, php8.4-mysql, php8.4-gd, php8.4-mbstring, php8.4-curl"
 
     [resources.database]
     type = "mysql"
