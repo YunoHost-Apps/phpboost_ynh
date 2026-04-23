@@ -1,7 +1,12 @@
 #!/bin/bash
 
-
 source /usr/share/yunohost/helpers
+
+#=================================================
+# RETRIEVE ARGUMENTS FROM THE MANIFEST
+#=================================================
+
+phpboost_admin_email=$(ynh_user_get_info --username="$phpboost_admin" --key="mail")
 
 #=================================================
 # INITIALIZE AND STORE SETTINGS
@@ -28,6 +33,31 @@ ynh_config_add_nginx
 
 # Create a dedicated PHP-FPM config
 ynh_config_add_phpfpm
+
+#Execute Installation
+ynh_script_progression "[INSTALL] Installing $app ..."
+
+#(use the template file "conf/config.php" from the app's package)
+ynh_config_add --template="config.php" --destination="$install_dir/kernel/db/config.php" 
+
+
+#Populate DATABASE with temporary SQL
+ynh_script_progression "[INSTALL] Populate DATABASE $db_name with temporary SQL ..."
+ynh_mysql_db_shell < ../conf/phpboost_blank_install.sql
+
+# RUN PHPBoost CLI Install with PHP
+ynh_script_progression "[INSTALL] RUN the real instalation of $app ..."
+
+cd $install_dir
+#Exec PHPBoost CLI with PHP
+php$php_version phpboost
+php$php_version phpboost install --db-pwd $db_pwd --db-user $db_user --db-schema $db_name --ws-server https://$domain --ws-path $path --ws-locale $phpboost_lang --u-login $phpboost_admin --u-pwd $phpboost_pwd --u-email $phpboost_admin_email
+#Rm this for safety
+ynh_safe_rm $install_dir/install
+ynh_safe_rm $install_dir/update
+
+#(use the template file "conf/debug.php" from the app's package)
+ynh_config_add --template="debug.php" --destination="$install_dir/cache/debug.php" 
 
 #=================================================
 # END OF SCRIPT

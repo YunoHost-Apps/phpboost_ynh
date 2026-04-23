@@ -19,6 +19,12 @@ ynh_script_progression "Upgrading source files..."
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
+# Run internal update via phpboost CLI
+# pushd "$install_dir"
+#	 php$php_version phpboost
+#    php$php_version phpboost update
+# popd
+
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
